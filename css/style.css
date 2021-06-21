@@ -1,8 +1,7 @@
 /*
   Theme Name: Rapid
-  Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
+    Author: digiFULLsolutions.com
+    License: https://digifullsolutions/license/
 */
 
 /*--------------------------------------------------------------
@@ -126,7 +125,7 @@ h6 {
 
 #topbar {
   padding: 0 0 10px 0;
-  font-size: 14px;
+  font-size: 20px;
   transition: all 0.5s;
 }
 
@@ -358,6 +357,7 @@ h6 {
   position: absolute;
   right: 15px;
 }
+
 
 /* Mobile Navigation */
 
@@ -1210,6 +1210,43 @@ h6 {
   content: "\f2c7" !important;
 }
 
+
+/*--------------------------------------------------------------
+#COVID-19UPDATE
+--------------------------------------------------------------*/
+#COVID-19UPDATE {
+  background: #2d2b46;
+  background-size: cover;
+  padding: 40px 0;
+}
+#COVID-19UPDATE .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+#COVID-19UPDATE .cta-text {
+  color: #fff;
+}
+#COVID-19UPDATE .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.5s;
+  margin: 10px;
+  border: 3px solid #fff;
+  color: #fff;
+}
+
+#COVID-19UPDATE .cta-btn:hover {
+  background: #1bb1dc;
+  border: 3px solid #1bb1dc;
+}
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1250,7 +1287,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a {
-  font-size: 18px;
+  font-size: 20px;
   display: inline-block;
   background: #1bb1dc;
   color: #fff;
