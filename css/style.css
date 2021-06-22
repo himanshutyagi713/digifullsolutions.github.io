@@ -357,6 +357,32 @@ h6 {
   position: absolute;
   right: 15px;
 }
+#contactus .cu-text {
+  color: #1bb1dc;
+}
+
+#contactus .cu-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 26px;
+  border-radius: 3px;
+  transition: 0.0s;
+  margin: 10px;
+  border: 3px solid #18e633;
+  color: #18e633;
+}
+
+#contactus .cu-btn:hover {
+  color: #ffffff;
+}
+
+#contactus .cu-btn:hover {
+  background: #18e633;
+  border: 3px solid #18e633;
+}
 
 
 /* Mobile Navigation */
@@ -1423,7 +1449,7 @@ h6 {
   border-radius: 0;
   box-shadow: none;
   border: 1px solid #dce1ec;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 #footer .footer-top .form input::-webkit-input-placeholder,
@@ -1449,7 +1475,7 @@ h6 {
 #footer .footer-top .form button[type="submit"] {
   background: #1bb1dc;
   border: 0;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 8px 30px;
   color: #fff;
   transition: 0.3s;
