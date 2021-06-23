@@ -125,7 +125,7 @@ h6 {
 
 #topbar {
   padding: 0 0 10px 0;
-  font-size: 20px;
+  font-size: 14px;
   transition: all 0.5s;
 }
 
@@ -230,23 +230,24 @@ h6 {
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 32px;
-  border-radius: 4px;
-  transition: 0.5s;
+  background-color: #1bb1dc;
+  font-size: 15px;
+  font-weight: 400;
   color: #fff;
-  background: #1bb1dc;
-  color: #fff;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  border-bottom: 2px solid #4771cb!important;
+  transition: all .3s;
 }
 
 #intro .intro-info .btn-get-started:hover,
 #intro .intro-info .btn-services:hover {
-  background: #0a98c0;
+  background-color: #4771cb!important;
+  color: #fff!important;
+  border-bottom: 2px solid #33ccc5!important;
 }
 
 /*--------------------------------------------------------------
@@ -357,33 +358,26 @@ h6 {
   position: absolute;
   right: 15px;
 }
-#contactus .cu-text {
-  color: #1bb1dc;
-}
 
-#contactus .cu-btn {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 700;
-  font-size: 16px;
-  letter-spacing: 1px;
+.main-red-button {
   display: inline-block;
-  padding: 8px 26px;
-  border-radius: 3px;
-  transition: 0.0s;
-  margin: 10px;
-  border: 3px solid #18e633;
-  color: #18e633;
+  background-color: rgb(0, 231, 116);
+  font-size: 10px;
+  font-weight: 100;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 2px 5px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  border-bottom: 1px solid #4771cb!important;
+  transition: all .3s;
 }
 
-#contactus .cu-btn:hover {
-  color: #ffffff;
+.main-red-button:hover {
+  background-color: #fff!important;
+  color: #fff!important;
+  border-bottom: 1px solid #33ccc5!important;
 }
-
-#contactus .cu-btn:hover {
-  background: #18e633;
-  border: 3px solid #18e633;
-}
-
 
 /* Mobile Navigation */
 
@@ -1449,7 +1443,7 @@ h6 {
   border-radius: 0;
   box-shadow: none;
   border: 1px solid #dce1ec;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 #footer .footer-top .form input::-webkit-input-placeholder,
